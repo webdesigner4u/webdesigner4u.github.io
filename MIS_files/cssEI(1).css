@@ -1,0 +1,502 @@
+﻿/* CSS Style */
+ 
+ body {
+	
+	background: #101014 url(../images/MisBackground.jpg) repeat-x;
+    font-size: 12px;
+	font-family:'Book Antiqua';
+    margin: 0px;
+    padding: 0px;
+    color: #000000;
+    background-color:#B5C7DE;
+}
+.txtArea
+{
+    font-size: 12px;
+	font-family:'Book Antiqua';
+}
+ 
+ .td_Entitlement
+ {
+      height: 25px;
+       width:16.66%;
+       background: #e9ece9;
+       font-family:'Book Antiqua';
+       font-size: 12px;
+       color: navy;
+       
+ }
+ .td_Available
+ {
+      height: 25px;
+      width:16.66%;
+ }
+.td_style
+    {
+        height: 25px;
+        width: 110px;
+       
+        background: white;
+        font-family:'Book Antiqua';
+        font-size: 12px;
+        color: black;
+    }
+    
+    .edit
+{
+    border-style: solid;
+    border-width: 1px;
+    width: 30px;
+    height: 18px;
+    background-image: url('../Image/edit.jpg');
+}
+
+.delete
+{
+    border-style: solid;
+    border-width: 1px;
+    width: 30px;
+    height: 18px;
+    background-image: url('../Image/delete.jpg');
+    background-repeat: no-repeat;
+}
+
+
+
+    .td_top1
+    {
+        height: 25px;
+        width: 100px;
+       
+        background: #e9ece9;
+        font-family:Tahoma;
+        font-size: 12px;
+    }
+        
+.bodyColor
+{
+	background-color:#FAFCFE;
+}
+
+.MenuColor
+{
+    background: radial-gradient(circle at 1.98% 85.01%,#134e5e,transparent 100%),radial-gradient(circle at 98.02% 18.98%,#71b280,transparent 100%),radial-gradient(circle at 50% 50%,#0cc285,#0cc285 100%);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+  .td_hight
+    {
+        height: 25px;
+    }
+    
+     .tbl_main
+    {
+     width:1050Px;
+     margin-bottom:.0001pt;
+	 font-size:12px;
+	 font-family:Tahoma;
+	 margin-left: .0001pt;
+     margin-right:.0001pt;
+     margin-top: .0001pt;
+    
+     
+    }
+    
+    
+
+    tbl_margin
+    {
+       width:1120Px;
+      vertical-align:top; 
+      background:ThreeDHighlight;
+      border-bottom:1px solid #8496d7;
+      border-left:1px solid #8496d7; 
+      border-right:1px solid #8496d7; 
+      border-top:1px solid #8496d7;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      height:300;
+      }
+
+    
+    .tbl_margin
+    {
+      border: 1px solid #8496d7;
+    width:1120Px;
+      vertical-align:top; 
+      background:#f6f9f5;
+      margin-top: 10px;
+}
+  
+    .td_top
+    {
+        height:25px;
+        background:#B5C7DE;
+        width:980Px;
+        color:navy;
+        font-family:Tahoma;
+    }
+    
+    td_top
+    {
+        width:980Px;
+        height:25px;
+        background:#B5C7DE;
+        color:#2D428D;
+        font-family:Tahoma;
+      }
+      
+       rpt_tbl_margin
+    {
+       width:1280Px;
+      vertical-align:top; 
+      background:ThreeDHighlight;
+      border-bottom:1px solid #8496d7;
+      border-left:1px solid #8496d7; 
+      border-right:1px solid #8496d7; 
+      border-top:1px solid #8496d7;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      height:300;
+      }
+
+    
+    .rpt_tbl_margin
+    {
+      width:1280Px;
+      vertical-align:top; 
+      background:#f6f9f5;
+      border-bottom:1px solid #8496d7;
+      border-left:1px solid #8496d7; 
+      border-right:1px solid #8496d7; 
+      border-top:1px solid #8496d7;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      
+     
+
+    }
+    
+  .rpt_td_title
+    {
+          margin-left : 10px;
+          width:650px; 
+          height:25px;
+          vertical-align:middle;
+          background:#F7F7F7;
+          background-color:#F7F7F7;
+          font-family:Tahoma;
+          font-size: 14px; 
+          font-weight:bold;
+          color:Black; 
+    }
+    
+    .rpt_td_top
+    {
+        height:25px;
+        background:#B5C7DE;
+        width:980Px;
+        color:navy;
+        font-family:Tahoma;
+    }
+    
+    rpt_td_top
+    {
+        width:980Px;
+        height:25px;
+        background:#B5C7DE;
+        color:#2D428D;
+        font-family:Tahoma;
+      }
+     
+      
+    .td_grid
+    {
+        width:980Px;
+        font-family:Tahoma;
+        font-size: 12px; 
+        
+    }
+    .td_name
+    {
+       
+       height:25px;
+       width: 150px;
+       vertical-align:middle;
+       font-family:'Book Antiqua';
+       font-size: 12px; 
+       text-align: left;
+       font-weight:bold;
+}
+      
+      
+      
+      .td_value
+      {
+          
+          /*margin-left: 10px;*/
+          vertical-align:middle;
+          font-family:'Book Antiqua';
+          font-size: 12px; 
+          color:Black; 
+          padding-left:0px;
+          
+      }
+      .td_pay_slip
+      {
+       
+       height:25px;
+       width: 100px;
+       vertical-align: top;
+       background:#E7E7FF;
+       font-family:Tahoma;
+       font-size: 12px; 
+       color:Navy;  
+      }
+       .td_document_image_value
+      {
+          
+          clear: left;
+          width:1100px;
+          margin-top: 10px;
+          margin-left: 10px;
+          margin-right: 10px;
+          margin-bottom: 10px;
+          height:25px;
+          vertical-align:middle;
+          background:#E7E7FF;
+          background-color:#E7E7FF;
+          font-family:Tahoma;
+          font-size: 12px; 
+          color:Black; 
+          
+      }
+      
+      .td_image
+      {
+      width: 70px;
+      background :#e9ece9;
+      vertical-align:top; 
+      border-bottom:1px solid #8496d7;
+      border-left:1px solid #8496d7; 
+      border-right:1px solid #8496d7; 
+      border-top:1px solid #8496d7;
+      border: 1px solid #8496d7;
+      vertical-align: top;
+      }
+      
+    
+      .tr_po
+      {
+          vertical-align:top;
+          background-color:white;
+          font-family:'Book Antiqua';
+          color:black; 
+      }
+      
+      
+      
+      .td_offinfo
+      {
+          height:5px;
+          background:white;
+          color:#2D428D;
+          font-family:'Book Antiqua';
+	      height  :5px;
+      }
+      .td_parinfo
+      {
+      height:5px;
+      background:ButtonFace;
+      font-family:Tahoma; 
+	  height:5px;
+      }
+      .tr_vallpfile
+      {
+      height:10px;
+      background:ButtonFace;
+      color:#2D428D;
+      font-family:Tahoma; 
+	 
+      }
+           
+      
+      .td_updateInf_name
+      {
+       margin-right: 10px;
+       height:25px;
+       width: 150px;
+       vertical-align:middle;
+       background:#E7E7FF;
+       font-family:Tahoma;
+       font-size: 12px; 
+       color:Navy;  
+      }
+      
+      .td_updateInf_value
+      {
+          
+          
+          width:300px; 
+          height:25px;
+          vertical-align:middle;
+          background:#E7E7FF;
+          background-color:#E7E7FF;
+          font-family:Tahoma;
+          font-size: 12px; 
+          color:Black; 
+          
+      }
+      
+      .td_photo_update
+      {
+       
+       height:25px;
+       width: 300px;
+       vertical-align:middle;
+       background:#E7E7FF;
+       font-family:Tahoma;
+       font-size: 12px; 
+       color:Navy;  
+      }
+      
+            
+        .header
+        {
+        background-color:#B5C7DE;
+        border-bottom:3px solid #7CABDB;
+        height:75px;
+        }
+        
+        .footer
+        {
+            background: radial-gradient(circle at 1.98% 85.01%,#134e5e,transparent 100%),radial-gradient(circle at 98.02% 18.98%,#71b280,transparent 100%),radial-gradient(circle at 50% 50%,#0cc285,#0cc285 100%);
+           height: 25px;
+           color: white;
+           text-align:center;
+           border-top: 2px solid whitesmoke;
+           border-bottom: 2px solid whitesmoke;
+           box-shadow: 0 5px 15px rgba(0,0,0,.5);
+        }
+        .ucMenu_top
+        {
+            height:15px;
+            background:white;
+            width:230px;
+            color:navy;
+           font-family:'Book Antiqua';
+           font-size:12px ;
+           
+           
+           margin-left: 20px;
+           
+            
+        }
+        .ucSubMenu_top
+        {
+            background:white;
+            width:220px;
+            color:navy;
+           font-family:'Book Antiqua';
+           font-size:11px;
+           font-weight:bold;
+           margin-left: 35px;
+            
+        }
+        
+        .ucSubMenu_update
+        {
+            
+            background:ButtonFace;
+            width:100px;
+            color:navy;
+           font-family:Tahoma;
+           font-size:10px ;
+           font-weight:bold;
+           margin-left: 1000px;
+            
+        }
+        
+        .ucMenu
+        {
+           clear: left;
+           height: 15px;
+           background:ButtonFace;
+           background-color:ButtonFace;
+           color: Navy;
+           text-align:left;
+           vertical-align:bottom;
+           
+           font-family:Tahoma;
+          font-size: 12px; 
+        }
+        .orion_name
+        {
+        width: 84px;
+        height: 51px;
+        float: left;
+        margin-bottom: 0px;
+        margin-left: 1px;
+        margin-top: 1px;
+    margin-right: 1px;
+}
+
+.tableStyle_gen
+{
+	margin: 5px 0px 5px 0px;
+	border-bottom-color:Silver; 
+	border-bottom-style: solid;
+    border-bottom-width: 1px; 
+    border-right-color:Silver; 
+    border-right-style: solid;        
+    border-right-width: 1px;
+    border-top-color: Silver; 
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-left-color: Silver; 
+    border-left-style: solid;
+    border-left-width: 1px;
+    background-color:#E7E7FF; 
+}
+      
+      .td_blank
+      {
+          height:25px;
+          background:white; 
+          border-bottom: solid #10679F 1px;
+      }
+      .td_blank_space
+      {
+        height:8px;
+        background:#E7E7FF;
+        color:Navy;  
+      }
+     .td_EmergencyContact
+     {
+     font-size:14px;
+	/* font-family:Lucida Sans Unicode1; */
+	 font-family:Tahoma; 
+	 height:25px;
+	 background:#e9ece9;
+	 color:#2D428D;
+     }
+     .top_color
+     {
+         background: radial-gradient(circle at 1.98% 85.01%,#134e5e,transparent 100%),radial-gradient(circle at 98.02% 18.98%,#71b280,transparent 100%),radial-gradient(circle at 50% 50%,#0cc285,#0cc285 100%);
+         box-shadow: 0 5px 15px rgba(0,0,0,.5);
+         border-bottom: 2px solid whitesmoke;
+        box-shadow: 0 5px 15px rgba(0,0,0,.5);
+     }
+     .td_moderate
+     {
+         background:white;
+         font-family:'Book Antiqua';
+         font-size:12px;
+         color:black;
+     }
+
+    .appValue
+    {
+        font-family:'Book Antiqua';
+        background-color:white;
+
+    }
